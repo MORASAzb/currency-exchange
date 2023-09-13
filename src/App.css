@@ -1,0 +1,93 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgb(114, 114, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 956px;
+  height: 100vh;
+}
+
+.main {
+  background-color: rgb(148, 55, 55);
+  border: 0;
+  border-radius: 30px;
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 2rem 2rem 2rem;
+  border-bottom: 5px solid rgb(122, 34, 34);
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+  caret-color:red;
+}
+
+.constant-rate{
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.update {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  width: auto;
+ 
+
+}
+
+.date2 , .date1{
+  width: calc(50%);
+}
+
+.date1{
+  font-size: 20px;
+}
+
+input {
+  height: 30px;
+  font-size: 12px;
+  background-color: bisque;
+  border: 1px dotted rgb(219, 108, 40);
+  color: rgba(247, 1, 71, 0.796);
+}
+
+select{
+  background-color: bisque;
+  border: 1px dotted rgb(219, 108, 40);
+  color: rgba(247, 1, 71, 0.796);
+
+}
+
+.convert{
+  background-color: rgb(251, 175, 175);
+  border: 1px dotted rgb(83, 76, 76);
+  padding: 20px 0;
+  font-weight: 500;
+  grid-column: span 2;
+}
